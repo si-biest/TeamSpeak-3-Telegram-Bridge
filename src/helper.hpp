@@ -64,9 +64,6 @@ static std::string prepareMessage(MessageType type, const char *source, const ch
 	case MESSAGE_CHANNEL:
 		msg += "You received a channel message";
 		break;
-	case MESSAGE_SERVER:
-		msg += "You received a server message";
-		break;
 	default:
 		// Should never happen
 		msg += "You received a message";
